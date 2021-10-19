@@ -6,7 +6,7 @@
 	}
 
 	body {
-	  background-color: #0D1117;
+	  background-color: #E8E8E8;
 	  margin: 0px;
 	  padding: 0px;
 	  font-family: 'open Sans', Arial;
@@ -128,14 +128,14 @@
 
 	strong {
 	  font-weight: bold;
-	  color: #A1C6FF;
+	  color: #333;
 	}
 
 	h3.main-heading {
 	  margin: 0px 2px 20px 0px;
 	  border-bottom: 1px solid #ebebeb;
 	  padding-bottom: 14px;
-	  color: #0D1117;
+	  color: #333;
 	  line-height: 16px;
 	  font-size: 16px;
 	  font-weight: 600;
@@ -176,12 +176,12 @@
 	#logo h2 {
 	  font-size: 30px;
 	  font-weight: 900;
-	  color: #2185F8;
+	  color: #444;
 	  line-height: 40px;
 	}
 
 	#logo h4 {
-	  color: #E5E1DE;
+	  color: #666;
 	  line-height: 20px;
 	}
 
@@ -229,8 +229,9 @@
 	/* Profile Section */
 	/*-------------------------------------------------------*/
 	#profile {
-	  background: #465B7C;
-	  /*mainColor*/
+	  background:
+	    /*mainColor*/
+	    #fdc750;
 	  background-image: url(../images/header-shadow.png);
 	  background-position: center bottom;
 	  background-repeat: repeat-x;
@@ -260,15 +261,15 @@
 	.about h1 {
 	  font-weight: 900;
 	  font-size: 25px;
-	  color: #FFFBF7;
+	  color: #FFF;
 	  line-height: 30px;
 	  margin-top: 8px;
 	}
 
 	.about h3 {
 	  margin-top: 5px;
-	  font-size: 15px;
-	  color: #FFE5D3;
+	  font-size: 18px;
+	  color: #FFF;
 	  line-height: 18px;
 	}
 
@@ -277,7 +278,7 @@
 	  margin-top: 15px;
 	  color:
 	    /*profileTextColor*/
-	    #FFFBF7;
+	    #a87f09;
 	  font-weight: 400;
 	  line-height: 20px;
 	}
@@ -302,7 +303,7 @@
 	.personal-info li label {
 	  color:
 	    /*profileTextColor*/
-	    #FFE5D3;
+	    #a87f09;
 	  float: left;
 	  padding: 4px 7px;
 	  font-weight: 600;
@@ -318,7 +319,7 @@
 	  font-weight: 300;
 	  color:
 	    /*profileTextColor*/
-	    #FFFBF7;
+	    #a87f09;
 	}
 
 	/* Blurb */
@@ -364,7 +365,7 @@
 	  display: inline-block;
 	  background-repeat: no-repeat;
 	  font-size: 16px;
-	  color: #9EAAB9;
+	  color: #b9b9b9;
 	  text-align: center;
 	  font-weight: 300;
 	}
