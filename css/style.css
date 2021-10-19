@@ -383,7 +383,7 @@ header {
 }
 
 .tabs li.active a {
-  color: #98cee4;
+  color: #465B7C;
 }
 
 .next, .prev {
@@ -1513,7 +1513,7 @@ div.footer .copyright {
 
   .menu {
     height: 100px;
-    background-color: #ededed;
+    background-color: #465B7C;
     position: relative;
     width: 300px;
     padding-left: 0px;
