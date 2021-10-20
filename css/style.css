@@ -985,7 +985,8 @@ header {
 }
 
 h3.main-heading {
-  color: #EDEDED;
+  color: #465B7C;
+  font-size: 17px;
 }
 
 .contact-info, .contact-form {
