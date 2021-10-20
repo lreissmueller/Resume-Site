@@ -474,13 +474,13 @@ header {
 }
 
 .timeline li .timelineUnit h4 {
-  line-height: 24px;
+  line-height: 0px;
   font-size: 15px;
   color: #444;
 }
 
 .timeline li .timelineUnit h5 {
-  line-height: 18px;
+  line-height: 0px;
   font-size: 13px;
   color: #999;
 }
