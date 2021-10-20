@@ -131,6 +131,10 @@ strong {
   color: #A1C6FF;
 }
 
+ul {
+  list-style: none;
+}
+
 h3.main-heading {
   margin: 0px 2px 20px 0px;
   border-bottom: 1px solid #ebebeb;
