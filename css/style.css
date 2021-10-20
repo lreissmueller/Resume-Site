@@ -321,6 +321,20 @@ header {
     #FFFBF7;
 }
 
+.personal-info a {
+  text-decoration: none;
+}
+
+.personal-info a:link, a:visited {
+  color: #FFFBF7;
+}
+
+.personal-info a:hover {
+  color: #465B7C;
+  background-color: #FFFBF7;
+  text-decoration: none;
+}
+
 /* Blurb */
 #blurb {
   clear: both;
@@ -967,6 +981,11 @@ header {
 #contact {
   padding: 30px 0;
   overflow: hidden;
+  background-color: #465B7C;
+}
+
+h3.main-heading {
+  color: #EDEDED;
 }
 
 .contact-info, .contact-form {
@@ -987,15 +1006,19 @@ header {
   float: left;
   border-left: 1px solid
     /*mainColor*/
-    #fdc750;
+    #CA9E3F;
   padding-left: 18px;
 }
 
 .contact-info ul li {
   font-size: 13px;
   line-height: 20px;
-  color: #666;
+  color: #FFFBF7;
   overflow: hidden;
+}
+
+.contact-info ul li.odd {
+  color: #FFE5D3;
 }
 
 /* Google map */
@@ -1094,7 +1117,7 @@ footer {
 
 footer .copyright {
   float: left;
-  color: #333;
+  color: #FFE5D3;
   padding-left: 6px;
 }
 
@@ -1518,6 +1541,10 @@ div.footer .copyright {
     width: 300px;
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  ul.tabs {
+    text-decoration-style: none;
   }
 
   .tmenu {
